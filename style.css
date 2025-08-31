@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('A.png'); /* 设置背景图片 */
+  background-size: cover; /* 确保图片覆盖整个页面 */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#progress-container {
+  width: 80%;
+  background-color: rgba(221, 221, 221, 0.7); /* 半透明背景 */
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#progress-bar {
+  width: 0;
+  height: 30px;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+#content {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  border-radius: 10px;
+  color: white;
+}
