@@ -6,7 +6,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-image: url('A.png'); /* 设置背景图片 */
+  background-image: url('/nicelook/A.png'); /* 设置背景图片 */
   background-size: cover; /* 确保图片覆盖整个页面 */
   background-position: center;
   background-repeat: no-repeat;
